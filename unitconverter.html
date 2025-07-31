@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Unit Converter</title>
+    <link rel="icon" href="download.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <form>
+        <h1>Unit Converter</h1>
+        <label for="value">Enter value:</label>
+        <input type="number" id="value" required>
+        <br>
+        <label for=" from unit">Select from unit:</label>
+        <select id="from unit">
+            <option value="meters">Meters</option>
+            <option value="kilometers">Kilometers</option>
+            <option value="miles">Miles</option>
+            <option value="feet">Feet</option>
+            <option value="inches">Inches</option>
+            <option value="centimeters">Centimeters</option>
+            <option value="yards">Yards</option>
+            <option value="grams">Grams</option>
+            <option value="kilograms">Kilograms</option>
+            <option value="pounds">Pounds</option>
+            <option value="ounces">Ounces</option>
+            <option value="liters">Liters</option>
+            <option value="milliliters">Milliliters</option>
+            <option value="gallons">Gallons</option>
+            <option value="quarts">Quarts</option>
+        </select>
+         <label for=" to unit">Select to unit:</label>
+        <select id=" to unit">
+            <option value="meters">Meters</option>
+            <option value="kilometers">Kilometers</option>
+            <option value="miles">Miles</option>
+            <option value="feet">Feet</option>
+            <option value="inches">Inches</option>
+            <option value="centimeters">Centimeters</option>
+            <option value="yards">Yards</option>
+            <option value="grams">Grams</option>
+            <option value="kilograms">Kilograms</option>
+            <option value="pounds">Pounds</option>
+            <option value="ounces">Ounces</option>
+            <option value="liters">Liters</option>
+            <option value="milliliters">Milliliters</option>
+            <option value="gallons">Gallons</option>
+            <option value="quarts">Quarts</option>
+        </select>
+        <br>
+        <button type="button" onclick="unitconvertion()">Convert</button>
+        <p id="output">Your result will appear here</p>
+    </form>
+</body>
+</html>

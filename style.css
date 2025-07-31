@@ -1,0 +1,67 @@
+body{
+    background-image: url("images/image1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+form{
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px ;
+    margin-bottom: 150px;
+    padding: 20px;  
+}
+h1{
+    color:aqua;
+    padding:5px;
+    font-size: 40px;
+}
+button{
+    padding:10px;
+    margin:20px;
+    background-color: aqua;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 5px rgb(215, 220, 222);
+}
+button:hover{
+    background-color: rgb(144, 213, 213);
+}
+input{
+    color:black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+label{
+    color: aliceblue;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: left;
+    height:10px;
+    font-weight: bold;
+    padding:0px 10px 20px 10px;
+}
+p{
+    color:aquamarine;
+    font-size: 20px;
+    margin-top: 20px;   
+    padding: 10px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 5px 5px 5px rgb(215, 220, 222);
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    user-select: none;
+
+}
